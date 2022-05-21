@@ -58,7 +58,7 @@ header {
   color: var(--main-text-color);
 }
 .header-nav link:hover,
-header-nav link:focus {
+.header-nav link:focus {
   color: var(--accent-color);
 }
 .header-nav list {
