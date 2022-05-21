@@ -31,18 +31,18 @@ header {
 /* цвет фона героя и футера черный #2F303A */
 /* цвета логотипа голубой #2196F3 и черный #000000 */
 
-/* WebStudio */
+/* ------------WebStudio------------ */
 .logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+  color: var(--accent-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* header-nav */
+/* ------------header-nav------------ */
 .header-nav {
   font-weight: 500;
   font-size: 14px;
@@ -55,22 +55,22 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .header-nav link:hover,
 header-nav link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-nav list {
   color: var(--main-title-color);
 }
-/* hero */
+/* ------------hero------------ */
 .hero {
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background-color: #2f303a;
 }
 .section-title {
   font-weight: 900;
@@ -79,7 +79,7 @@ header-nav link:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 .section-btn {
   font-family: inherit;
@@ -91,4 +91,5 @@ header-nav link:focus {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: var(--hero-btn-color);
 }
